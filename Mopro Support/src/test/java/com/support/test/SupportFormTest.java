@@ -14,6 +14,7 @@ import com.mopro.support_pages.SupportForm;
 public class SupportFormTest extends Driver {
 
 	SupportForm support;
+	String url = "http://create.qa.cmlmediasoft.com/177637/support";
 
 	@BeforeMethod
 	public void setup() {
@@ -21,12 +22,17 @@ public class SupportFormTest extends Driver {
 		support = new SupportForm();
 	}
 	
+	@Test
+	public void checkURL() {		
+		driver.get(url);
+		Assert.assertEquals(driver.getTitle(), "Support");		
+	}
+	
 
 	@Test
 	public void supportFormTestExcel() throws InterruptedException {
 
-		String sheetName = "SupportForm";
-		String url = "http://create.qa.cmlmediasoft.com/177637/support";
+		String sheetName = "SupportForm";		
 		String ctaXpath = "//a[@id='ctl01_rptSpan_ctl01_anchorlement']";
 		Sheet sh = Excel.readExcel(sheetName);		
 
