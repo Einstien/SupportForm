@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-05T02:25:52 IST" name="Default suite" finished-at="2020-03-05T02:26:42 IST" duration-ms="50617">
+    <groups>
+    </groups>
+    <test started-at="2020-03-05T02:25:52 IST" name="Default test" finished-at="2020-03-05T02:26:42 IST" duration-ms="50617">
+      <class name="com.support.test.SupportFormTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.support.test.SupportFormTest@2ea227af]" started-at="2020-03-05T02:25:52 IST" name="setup" finished-at="2020-03-05T02:26:01 IST" duration-ms="9826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="supportFormTestExcel()[pri:0, instance:com.support.test.SupportFormTest@2ea227af]" started-at="2020-03-05T02:26:01 IST" name="supportFormTestExcel" finished-at="2020-03-05T02:26:41 IST" duration-ms="40028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supportFormTestExcel -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.support.test.SupportFormTest@2ea227af]" started-at="2020-03-05T02:26:41 IST" name="closeDriver" finished-at="2020-03-05T02:26:42 IST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.support.test.SupportFormTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
