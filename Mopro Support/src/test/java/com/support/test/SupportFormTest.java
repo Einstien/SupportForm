@@ -1,5 +1,7 @@
 package com.support.test;
 
+import java.net.MalformedURLException;
+
 import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -17,7 +19,7 @@ public class SupportFormTest extends Driver {
 	String url = "http://create.qa.cmlmediasoft.com/177637/support";
 
 	@BeforeMethod
-	public void setup() {
+	public void setup() throws MalformedURLException {
 		intiatedriver();
 		support = new SupportForm();
 	}

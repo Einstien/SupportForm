@@ -6,6 +6,7 @@
       <class name="com.support.test.SupportFormTest">
         <methods>
           <include name="setup"/>
+          <include name="checkURL"/>
           <include name="supportFormTestExcel"/>
           <include name="closeDriver"/>
         </methods>
